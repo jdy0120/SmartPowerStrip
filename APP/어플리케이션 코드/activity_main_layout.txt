@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.doyeon.multitap.MainActivity">
+
+    <Button
+        android:id="@+id/onbutton1"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="61dp"
+        android:text="ON"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/onbutton2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="122dp"
+        android:text="ON"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/textview3"
+        app:layout_constraintRight_toRightOf="@+id/onbutton1"
+        app:layout_constraintTop_toBottomOf="@+id/onbutton1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/offbutton2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="OFF"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/offbutton1"
+        app:layout_constraintRight_toRightOf="@+id/offbutton1"
+        app:layout_constraintTop_toTopOf="@+id/onbutton2"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="9dp" />
+
+    <Button
+        android:id="@+id/onbutton3"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="ON"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/onbutton1"
+        app:layout_constraintTop_toBottomOf="@+id/textview3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/onbutton1"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:id="@+id/offbutton3"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="120dp"
+        android:text="OFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/offbutton2"
+        app:layout_constraintRight_toRightOf="@+id/offbutton2"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/offbutton1"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="2dp"
+        android:text="OFF"
+        app:layout_constraintRight_toRightOf="@+id/textview1"
+        app:layout_constraintTop_toBottomOf="@+id/textview1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="6dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/onbutton2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@+id/onbutton2"
+        app:layout_constraintRight_toRightOf="@+id/textview3"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="49dp"
+        android:layout_marginEnd="1dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/offbutton3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@+id/onbutton3"
+        app:layout_constraintRight_toRightOf="@+id/offbutton3"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="35dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/onbutton1"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="편집"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onbutton1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:id="@+id/edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="79dp"
+        android:layout_marginStart="79dp"
+        android:text="편집"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintLeft_toLeftOf="@+id/onbutton2"
+        app:layout_constraintRight_toRightOf="@+id/textview3"
+        app:layout_constraintTop_toBottomOf="@+id/onbutton2"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="-6dp" />
+
+    <Button
+        android:id="@+id/edit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="편집"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onbutton3"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+</android.support.constraint.ConstraintLayout>
